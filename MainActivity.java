@@ -1,4 +1,4 @@
-package com.example.shun;
+package com.example.hello;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         public void onClicked(View v) {
-            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-7684-6515"));
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-1234-5678"));
             startActivity(intent);
         }
-}
+    }
